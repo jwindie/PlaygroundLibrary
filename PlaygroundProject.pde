@@ -9,6 +9,7 @@ void setup() {
 
 void draw() {
   background (0);
+  stroke(randomColor());
   trail.addPoint (mouseX, mouseY);
   trail.draw();
   
